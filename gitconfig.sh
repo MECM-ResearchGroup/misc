@@ -39,7 +39,7 @@ git config --global user.signingkey "$PUBLIC_KEY_PATH"
 # Enable tag signing and signoff
 git config --global tag.gpgSign true
 git config --global gpg.format ssh
-git config --global signoff true
+git config --global format.signOff true
 
 # Display a message indicating completion
 echo "Git configuration initialized."
